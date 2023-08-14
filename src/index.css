@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-animation{
+    @apply animate-background bg-gradient-to-r from-red-500 via-yellow-500 to-cyan-600 bg-clip-content text-lime-400
+ }
