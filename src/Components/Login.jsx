@@ -12,7 +12,7 @@ const Login = () => {
   };
   return (
     <div className="bg-green-300">
-        <div className="text-center text-animation ">
+        <div className="text-center ">
             <h1 className="font-extrabold text-5xl uppercase py-6 ">wellcome to login </h1>
             <h3 className="text-3xl pb-4 ">please login</h3>
         </div>
@@ -95,6 +95,15 @@ const Login = () => {
                 <button className="btn btn-primary">Login</button>
               </div>
             </form>
+            <div className="divider">OR</div>
+            <div className="grid grid-cols-1 md:grid-cols-2">
+              <button className="bg-gray-500 py-12 text-4xl text-yellow-200 font-bold ">
+                google 
+              </button>
+              <button className="bg-blue-500 py-12 text-4xl text-white font-bold ">
+                Facebook 
+              </button>
+            </div>
           </div>
         </div>
       </div>
